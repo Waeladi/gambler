@@ -1,0 +1,19 @@
+# Product Requirements Document (PRD)
+
+**App Name:** Gambler  
+**Platform:** Flutter (iOS, Android)  
+**Version:** 1.0 (MVP)
+
+---
+
+## 1. Purpose
+The purpose of *Gambler* is to provide users with a fun and simple slot machine game experience. Users pull a virtual lever, watch the slot reels spin, and receive results based on predetermined winning combinations.
+
+--
+
+## 2. Goals & Objectives
+- Deliver a lightweight mobile slot machine game with minimal onboarding.  
+- Ensure cross-platform support via Flutter.  
+- Provide predetermined winning combos for fairness and consistency.  
+- Create smooth, engaging reel spin animations.
+-type somthing else
