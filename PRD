@@ -1,0 +1,131 @@
+
+---
+
+# Product Requirements Document (PRD)
+
+## Game Title: *Gambler*
+
+---
+
+### 1. Overview
+
+**Gambler** is a simple mobile slot-machine style game where players pull a virtual slot lever. The game displays three rows with symbols. Players can choose how many coins to bet per spin. If symbols in a row match, the player wins coins based on their bet multiplier and the symbol’s payout value.
+
+---
+
+### 2. Goals & Objectives
+
+* Provide a simple, addictive slot experience for casual players.
+* Add an element of risk/reward by letting players adjust their bet amount.
+* Deliver a smooth and intuitive mobile user experience.
+* Build the app using **Android Studio** with Kotlin or Java.
+
+---
+
+### 3. Target Audience
+
+* Casual mobile gamers.
+* Ages 13+ (no real gambling, coins are virtual).
+* Players looking for quick “pick up and play” fun with strategy in betting.
+
+---
+
+### 4. Core Gameplay Mechanics
+
+1. **Starting the Game**
+
+   * Player begins with a set number of coins (e.g., 1000).
+
+2. **Bet Selection**
+
+   * Before each spin, the player can choose their bet amount (e.g., 10, 20, 50, 100 coins).
+   * The chosen bet amount is subtracted from their balance when they spin.
+
+3. **Spinning**
+
+   * Player taps a **“Spin”** button (lever animation optional).
+   * Three rows (horizontal) spin with 3 symbols each.
+
+4. **Winning Condition**
+
+   * A row wins if all 3 symbols in that row match.
+   * Multiple rows can win at once.
+
+5. **Payouts**
+
+   * Base payouts per symbol (multiplied by bet amount):
+
+     * 🍒 Cherry = ×5
+     * 🍋 Lemon = ×10
+     * 🔔 Bell = ×25
+     * ⭐ Star = ×50
+     * 💎 Diamond = ×100
+   * Example: If bet = 20 coins, and player hits 3 🍒 in a row → payout = 20 × 5 = 100 coins.
+
+6. **Game Over Condition**
+
+   * Player cannot spin if they don’t have enough coins for the minimum bet.
+   * Option to restart with free coins or claim daily reward.
+
+---
+
+### 5. Features
+
+* **Bet Selector UI** (buttons or slider to adjust bet amount).
+* **Virtual Slot Machine UI** with 3 rows × 3 symbols grid.
+* **Spin Button** with spin animation.
+* **Coin Counter** displayed at the top.
+* **Winning Animation** (highlight winning rows + sound effect).
+* **Daily Reward**: Bonus coins once per day.
+* **Sound Effects & Vibration** for spins and wins.
+
+---
+
+### 6. User Interface (UI)
+
+* **Home Screen**:
+
+  * Title (*Gambler*).
+  * "Play" button.
+
+* **Game Screen**:
+
+  * **Coin Balance** at top.
+  * **Slot Machine Grid** (3×3 symbols).
+  * **Bet Selector** (buttons: 10, 20, 50, 100).
+  * **Spin Button** at bottom.
+
+* **Win Popup**: Shows winnings based on bet × payout.
+
+* **Game Over Screen**: Restart or claim free coins.
+
+---
+
+### 7. Technical Requirements
+
+* **Development Tool**: Android Studio.
+* **Language**: Kotlin (preferred) or Java.
+* **UI Framework**: Android Views or Jetpack Compose.
+* **Offline Play**: Yes, works without internet.
+* **Minimum Android Version**: Android 8.0 (Oreo).
+
+---
+
+### 8. Success Metrics
+
+* **Retention**: % of players returning daily.
+* **Engagement**: Avg. number of spins per session.
+* **Coins Economy Balance**: Average player coin balance after sessions.
+
+---
+
+### 9. Future Enhancements
+
+* Add multiple bet lines (diagonal matches, not just horizontal).
+* Unlockable themes (classic casino, neon, fantasy).
+* Leaderboards to compare total winnings.
+* Achievements/Challenges.
+* In-app purchases (optional) for extra coins or power-ups.
+
+---
+
